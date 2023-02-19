@@ -1,8 +1,9 @@
-import {Hero} from './Components';
+
+import {Button} from './Components';
 function App() {
   return (
     <>
-      <h1>Hello world!</h1>
+      <Button text="Read More" />
     </>
   );
 }
