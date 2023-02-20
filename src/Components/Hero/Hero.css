@@ -1,0 +1,53 @@
+.header-area {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+button.hambarger {
+    background-color: transparent;
+    border: none;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 999;
+    
+}
+button.hambarger span {
+    height: 2px;
+
+}
+button.hambarger span.l1 {
+    display: block;
+    width: 70px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    margin-left: auto;
+}
+button.hambarger span.l2 {
+    display: block;
+    width: 40px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    margin-left: auto;
+}
+button.hambarger span.l3 {
+    display: block;
+    width: 40px;
+    background-color: #fff;
+    margin-left: auto;
+}
+.nav-area {
+    height: 100px;
+
+}
+.nav-area .header-menu a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
